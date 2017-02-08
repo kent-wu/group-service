@@ -31,5 +31,8 @@ dependencies {
 	compile('org.springframework.kafka:spring-kafka')
 //	compile('org.springframework.boot:spring-boot-starter-security')
 	compile('org.springframework.boot:spring-boot-starter-web')
+	
+	compile 'org.apache.zookeeper:zookeeper:3.4.8'
+
 	testCompile('org.springframework.boot:spring-boot-starter-test')
 }
